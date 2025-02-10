@@ -36,6 +36,32 @@ iLOGIN is a user management system built with PHP, MySQL, and Bootstrap. It allo
        PRIMARY KEY (`id`)
    );
    ```
+4. **Congigure the database connection:**
+- Open `connection.php`.
+- Update the database credentials(`$servername`,`$username`,`$password`,`$dbname`) to  mathc your MYSQL setup.
+
+5. **Start the server:**
+
+- If using XAMPP, place the project folder in the htdocs directory.
+- Start Apache and MySQL from the XAMPP control panel.
+- Open your browser and navigate to `http://localhost/ilogin`.
+
+**Usage** 
+1.  a new user:
+
+- Navigate to the registration page (`register.php`).
+- Fill in the required details and submit the form.
+
+2. **Login:**
+
+- Navigate to the login page (`login.php`).
+- Enter your credentials and log in.
+
+3. **Manage Users:**
+
+- After logging in as an admin, navigate to the settings page (`setting.php`).
+- Use the "Add User" button to add new users.
+- Use the edit and delete buttons to manage existing users.
 
 ## Project Structure
 
@@ -53,4 +79,26 @@ ilogin/
 ├── server.php               # Server-side script for handling form submissions
 ├── README.md                # Project documentation
 ```
+
+**Dependencies**
+- PHP
+- MySQL
+- Bootstrap 5
+- jQuery
+- DataTables
+
+**License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+**Contributing**
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+
+**Contact**
+
+For any questions or inquiries, please contact [sanjiwgpt55@gmail.com].
+
+This `README.md` file provides a comprehensive overview of the project, including features, installation instructions, usage, project structure, dependencies, license, contributing guidelines, and contact information.
 
