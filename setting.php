@@ -14,7 +14,7 @@ $connection = getDatabaseConnection();
         </button>
     </div>
 
-    <table class="table table-bordered table-striped" id="myTable">
+    <table class="table table-bordered border-primary table-hover" id="myTable">
         <thead>
             <tr>
                 <th>#</th>
