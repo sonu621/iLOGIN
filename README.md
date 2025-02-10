@@ -24,6 +24,8 @@ iLOGIN is a user management system built with PHP, MySQL, and Bootstrap. It allo
    ```
 
 3. **Create the database table:**
+- Create a MySQL database named `login_register`.
+- Import the following SQL script to create the necessary tables:
    ```sql
    CREATE TABLE `details` (
        `id` INT NOT NULL AUTO_INCREMENT,
